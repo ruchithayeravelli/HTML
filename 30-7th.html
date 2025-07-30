@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <center>
+        <h1>Form's Examples</h1>
+    </center>
+    <form action="./submit.html" method="get" enctype="text/plain">
+       <ol type="A">
+        <center>
+            <a href="#contact us today!">Contact us Today! <b>|</b></a>
+            <a href="#my feedback form">My Feedback Form <b>|</b></a>
+            <a href="#application">Application</a>
+        </center>
+        <li><h2 id="contact us today!">Contant us Today!</h2></li>
+        <table width="500" align="center">
+            <tbody>
+                <tr>
+                    <td>
+                        <fieldset>
+                            <h1>esdfghjkl</h1>
+                            <table width="100%" align="center">
+                            <tbody>
+                                <tr>
+                                    <td  style="text-align: left;">
+                                        <label for="Firstname" >First Name
+                                            <sup style="color: red;">*</sup>
+                                        </label>
+                                    </td>
+                                    <td>
+                                        <input type="text" name="firstname" id="Firstname" placeholder="Enter name" required>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: left;">
+                                        <label for="Lastname">Last Name
+                                            <sup style="color: red;">*</sup>
+                                        </label>
+                                    </td>
+                                    <td>
+                                        <input type="text" name="Lastname" id="Lastname" placeholder="Enter Last name" required>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: left;">
+                                        <label for="Email">Email
+                                            <sup style="color: red;">*</sup>
+                                        </label>
+                                    </td>
+                                    <td>
+                                         <input type="email" name="email" id="Email" placeholder="Enter Email"  required>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: left;">
+                                        <label for="ph number">Phone No
+                                            <sup style="color: red;">*</sup>
+                                        </label>
+                                    </td>
+                                    <td>
+                                         <input type="tel" name="Phone Number" id="ph number" placeholder="Enter number"  maxlength="10",minlength="10" required>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: left;">
+                                        <label for="address">Address
+                                            <sup style="color: red;">*</sup>
+                                        </label>
+                                    </td>
+                                    <td>
+                                        <textarea name="Address" id="address" rows="5" cols="22" placeholder="Enter your Address......" required></textarea>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: left;">
+                                         <label for="City">City
+                                            <sup style="color: red;">*</sup>
+                                        </label>
+                                    </td>
+                                    <td>
+                                        <input type="text" name="City" id="City" placeholder="Enter your city" required>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: left;">
+                                         <label for="State">State
+                                            <sup style="color: red;">*</sup>
+                                        </label>
+                                    </td>
+                                    <td>
+                                         <select name="State" id="State">
+                                            <option disabled selected>---Selected---</option>
+                                            <option value="">Hyderabad</option>
+                                            <option value="">Karimnagar</option>
+                                            <option value="">Rajanna Siricilla</option>
+                                            <option value="">Nizambad</option>
+                                            <option value="">Kphb</option>
+                                         </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: left;">
+                                         <label for="pincode">Pin Code
+                                            <sup style="color: red;">*</sup>
+                                        </label>
+                                    </td>
+                                    <td>
+                                         <input type="text" name="Pincode" id="pincode" maxlength="6" minlength="6" placeholder="Pincode" required>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: left;">
+                                        <label for="website">Website or Domain name
+                                            <sup style="color: red;">*</sup>
+                                        </label>
+                                    </td>
+                                    <td>
+                                         <input type="text" name="Website" id="website"  placeholder="Website or Domain name" required>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: left;">
+                                         <label for="Doyouwanthosting">Do you want hosting?
+                                            <sup style="color: red;">*</sup>
+                                        </label>
+                                    </td>
+                                    <td>
+                                        <input type="radio" name="hosting" id="Doyouwanthosting">
+                                        Yes
+                                        <br>
+                                         <input type="radio" name="hosting" id="Doyouwanthosting" >
+                                        No
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: left;">
+                                        <label for="website">Project Description
+                                            <sup style="color: red;">*</sup>
+                                        </label>                                        
+                                    </td>
+                                    <td>
+                                      <textarea name="Address" id="address" rows="5" cols="22" placeholder="Project Description......" required></textarea>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        </fieldset>
+                        <br>
+                         <center>
+                         <input type="submit">
+                       </center>                
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    <!----------------------------------------------------------------------------------Form 2-->
+        <li><h2 id="my feedback form">My Feedback Form</h2></li>
+        <table align="center" width="500">
+            <tbody>
+                <tr>
+                    <td>
+                        <fieldset>
+                            <ul type="disc">
+                                <li>
+                                        <label for="Firstname" >Name
+                                            <sup style="color: red;">*</sup>
+                                        </label>
+                                        <input type="text" name="firstname" id="Firstname" placeholder="Enter name...." required>
+                                </li>
+                                <li>
+                                    
+                                        <label for="email" >Email
+                                            <sup style="color: red;">*</sup>
+                                        </label>
+                                        <input type="text" name="Email" id="email" placeholder="Enter your email..." required>
+                                </li>
+                                <li>
+                                    
+                                        <label for="Password" >Password
+                                            <sup style="color: red;">*</sup>
+                                        </label>
+                                        <input type="text" name="Password" id="password" placeholder="Enter password...." required>
+                                </li>
+                                <li>
+                                    
+                                        <p>Please check all emotions that apply to you: <sup style="color: red;">*</sup></p>
+                                    <ul type="disc">
+                                        <li>
+                                            <label for="angry">Angry</label>
+                                            <input type="checkbox" id="angry" name="emotion" value="Angry"><br>
+                                        </li>
+                                        <li>
+                                            <label for="sad">Sad</label>
+                                            <input type="checkbox" id="sad" name="emotion" value="Sad"><br>
+                                        </li>
+                                        <li>
+                                            <label for="happy">Happy</label>
+                                            <input type="checkbox" id="happy" name="emotion" value="Happy"><br>
+                                        </li>
+                                        <li>
+                                            <label for="ambivalent">Ambivalent</label>
+                                            <input type="checkbox" id="ambivalent" name="emotion" value="Ambivalent">
+                                        </li>                                           
+                                    </ul>
+                                </li>
+                                <li>
+                                    <label for="Sstisfied" >How satisfied were you with our service?
+                                            <sup style="color: red;">*</sup>
+                                        </label>
+                                        <ul type="disc">
+                                            <li>Very satisfied
+                                                 <input type="radio"  name="click the  radio" id="satisfied" required>
+                                            </li>
+                                            <li>satisfied
+                                                 <input type="radio"  name="click the  radio" id="satisfied" required>
+                                            </li>
+                                            <li>Disn't care
+                                                 <input type="radio"  name="click the  radio" id="satisfied" required>
+                                            </li>
+                                            <li>Dissatisfied
+                                                 <input type="radio"  name="click the  radio" id="satisfied" required>
+                                            </li>
+                                            <li>Very Dissatisfied
+                                                 <input type="radio"  name="click the  radio" id="satisfied" required>
+                                            </li>
+                                        </ul>
+                                </li>
+                                <li>
+                                    <label for="Comments" >Further comments:
+                                        </label> 
+                                        <textarea name="comments" id="Comments" rows="3" col="30"></textarea>
+                                </li>
+                                <li>
+                                    <label for="photo" >Bio Photo:
+                                        <sup style="color: red;">*</sup>
+                                        </label> 
+                                        <input type="file"  name="Photo" id="photo" accept=".pdf" required>
+                                </li>
+                                <li>
+                                    <label for="location" >Location Visited:
+                                        <sup style="color: red;">*</sup>
+                                    </label> 
+                                        <select name="Location" id="location">
+                                            <option disabled selected>---Selected---</option>
+                                            <option value="">JNTU</option>
+                                            <option value="">S.R nagar</option>
+                                            <option value="">Ameerpet</option>
+                                            <option value="">Kukatelly</option>
+                                            <option value="">Kphb</option>
+                                        </select>
+                                </li>
+                            </ul>
+                            <br>
+                            <center>
+                                <input type="submit">
+                            </center>
+                        </fieldset>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <!----------------------------------------------------------from 3 -->
+        <li><h2 id="application">Application</h2></li>
+         <table width="800" align="center">
+            <tbody>
+                <tr>
+                    <td>
+                        <fieldset>
+                            <center><b>Application Form</b></center>
+                            <table width="100%" align="center">
+                                <tbody>
+                                    <tr>
+                                        <td  style="text-align: left;">
+                                          <label for="Firstname" >First Name
+                                            <sup style="color: red;">*</sup>
+                                          </label>
+                                        </td>
+                                        <td>
+                                            <input type="text" name="firstname" id="Firstname" placeholder="Enter first name" required>
+                                        </td>
+                                        <td  style="text-align: left;">
+                                            <label for="Lastname" >Last Name
+                                            <sup style="color: red;">*</sup>
+                                        </label>
+                                        </td>
+                                        <td>
+                                           <input type="text" name="lastname" id="Lastname" placeholder="Enter last name" required>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td  style="text-align: left;">
+                                          <label for="date" >Date of birth
+                                            <sup style="color: red;">*</sup>
+                                          </label>
+                                        </td>
+                                        <td>
+                                            <input type="date" name="date of birth" id="date"  required>
+                                        </td>
+                                        <td  style="text-align: left;">
+                                            <label for="age" >Age
+                                            <sup style="color: red;">*</sup>
+                                        </label>
+                                        </td>
+                                        <td>
+                                           <input type="number" name="Age" id="age" placeholder="Enter your Age...." required>
+                                        </td>
+                                    
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <label for="Gender">Gender:<sup style="color: red;">*</sup></label>
+                                        </td>
+                                        <td>
+                                            <input type="radio" name="Male " id="Gender"  value="Male" required>
+                                            Male
+                                            <input type="radio" name="Male " id="Gender"  value="Female" required>
+                                            Female
+                                        </td>
+                                        <td style="text-align: left;">
+                                           <label for="Email">Email
+                                             <sup style="color: red;">*</sup>
+                                           </label>
+                                        </td>
+                                        <td>
+                                         <input type="email" name="email" id="Email" placeholder="Enter Email"  required>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <label for="Postion">Postion Avaliable:<sup style="color: red;">*</sup></label>
+                                        </td>
+                                        <td>
+                                            <input type="radio" name="Avaliablty" id="Postion"  required>
+                                            Junior Developer
+                                        </td>
+                                        <td>
+                                            <input type="radio" name="Avaliablty" id="Postion" required>
+                                            Mid-level Developer
+                                        </td>
+                                        <td>
+                                            <input type="radio" name="Avaliablty" id="Postion" required>
+                                            Senior Developer
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <label for="lang">Programming Languages:<sup style="color: red;">*</sup></label>
+                                        </td>
+                                        <td>
+                                            <input type="checkbox" name="Avaliably" id="lang"  required>
+                                            JAVA
+                                        </td>
+                                        <td>
+                                            <input type="checkbox" name="Avaliably" id="Postion" required>
+                                            JAVA SCRIPT
+                                        </td>
+                                        <td>
+                                            <input type="checkbox" name="Avaliably" id="Postion" required>
+                                            PYTHON
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td  style="text-align: left;">
+                                          <label for="password" >Password:
+                                            <sup style="color: red;">*</sup>
+                                          </label>
+                                        </td>
+                                        <td>
+                                            <input type="password" name="password" id="password" placeholder="enter password" required>
+                                        </td>
+                                       <td  style="text-align: left;">
+                                          <label for="Cpassword" > Conform Password:
+                                            <sup style="color: red;">*</sup>
+                                          </label>
+                                        </td>
+                                        <td>
+                                            <input type="password" name="Cpassword" id="Cpassword"  placeholder="enter password" required>
+                                        </td>
+                                        <table>
+                                            <center>
+                                            <input type="submit">
+                                            <input type="Reset">
+                                        </center>
+                                        </table>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </fieldset>
+                    </td>
+                </tr>
+            </tbody>
+         </table>
+       </ol>
+    </form>
+</body>
+</html>
